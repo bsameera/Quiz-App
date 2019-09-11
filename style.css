@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: url('https://i.imgur.com/HNddBN8.jpg') no-repeat center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+#start{
+  text-align: center;
+}
+
+#heading1, #heading2 {
+  text-align: center;
+  color: rgb(38, 101, 173);
+  font-weight: bold;
+  background-color: rgb(211, 235, 243, .8);
+}
+#heading1 {
+  width: 450px;
+  margin: 80px auto;
+  font-size: 52px;
+  height: 66px;
+  border-radius: 40px;
+  text-shadow: 1.4px 1.4px darkblue;
+}
+
+#heading2 {
+  width: 700px;
+  margin: 80px auto;
+  font-size: 27px;
+  height: 45px;
+  border-radius: 19px;
+  text-shadow: 1px 1px darkblue;
+  padding-top: 7px;
+}
+
+#start-button {
+  height: 50px;
+  width: 160px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 2.2em;
+  background-color: rgb(211, 235, 243, .8);
+  color: rgb(38, 101, 173);
+  text-shadow: 1px 1px darkblue;
+  margin-top: -9px;
+}
+
+#start-button:hover, #js-submit-button:hover, #js-next-button:hover, #js-restart-button:hover {
+  background-color: coral;
+  color: white;
+  text-shadow: 1.6px 1.6px darkblue;
+}
+
+#question {
+  text-align: center;
+  background-color: rgb(255, 255, 240, .7);
+  margin: 0;
+  height: auto;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: rgb(61, 90, 184);
+  text-shadow: 2px 2px darkblue;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-left: 110px;
+  min-height: 340px;
+  border: none;
+  color: ivory;
+  text-shadow: 2.5px 2.5px darkblue;
+}
+
+.answer {
+  vertical-align: middle;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+label {
+  margin-bottom: 1em;
+  font-size: 30px;
+}
+
+#js-submit-button {
+  margin-left: 3px;
+  margin-top: 56px;
+  margin-bottom: 0;
+  width: 170px;
+  height: 43px;
+  font-size: 29px;
+  border-radius: 14px;
+  color: rgb(61, 90, 184);
+  text-shadow: 1.1px 1.1px darkblue;
+}
+
+#status-bar {
+  margin-top: 30px;
+  font-size: 27px;
+  margin-left: 112px;
+}
+#question-count {
+  margin-right: 50px;
+  color: ivory;
+  text-shadow: 2.5px 2.5px darkblue;
+  border: ivory 2px solid;
+  border-radius: 16px;
+  padding: 9px;
+}
+#score-count {
+  color: ivory;
+  text-shadow: 2.5px 2.5px darkblue;
+  border: ivory 2px solid;
+  border-radius: 16px;
+  padding: 9px;
+}
+.feedback-page {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.feedback-page h1,h2 {
+  color: ivory;
+  text-shadow: 2.5px 2.5px darkblue;
+}
+.feedback-page img {
+  border: ivory 5px solid;
+}
+#js-next-button, #js-restart-button {
+  height: 60px;
+  width: 160px;
+  position: relative;
+  top: -16px;
+  left: 40px;
+  font-size: 40px;
+  border-radius: 16px;
+  color: rgb(61, 90, 184);
+  text-shadow: 1.1px 1.1px darkblue;
+  background-color: ivory;
+}
+#js-restart-button {
+  font-size: 25px;
+  width: auto;
+  position: relative;
+  top: -30px;
+  padding: 7px 7px;
+}
+#js-final-page h1 {
+  color: ivory;
+  text-shadow: 2.5px 2.5px darkblue;
+  margin-top: 35px;
+}
+#js-final-page {
+  margin-left: 10px;
+}
+#js-final-page img {
+  border: ivory 5px solid;
+  margin-top: 14px;
+}
